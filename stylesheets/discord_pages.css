@@ -1,7 +1,7 @@
 .blog-post-content a {
     color: var(--link-a11y);
     cursor: pointer;
-    border-bottom: 5px solid #aedbe8;
+    border-bottom: 3px solid #aedbe8;
     text-decoration: none;
 }
 a {
@@ -26,7 +26,6 @@ body {
     color: #333;
 }
 body {
-    min-height: 100%;
     color: #333;
     background-color: #fff;
     margin: 0;
@@ -38,8 +37,4 @@ body {
     --light-gray: #f6f6f6;
     --link-a11y: #0067e0;
     --hover-white: #ebeaea;
-}
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
 }
