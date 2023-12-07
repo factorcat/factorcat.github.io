@@ -3,10 +3,22 @@
 <head>
   <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Speaks Album</title>
-  <style>
-.tags {
-    width: 650px;
-    background-color: #eeebe8; /* Nerolac Egret - 2302  https://encycolorpedia.com/eeebe8  */
+  <link rel="stylesheet" href="../../stylesheets/discord_pages.css">
+<style>
+div.blog-post-content {
+    background-color: #eeebe8; /*  */
+    padding: 2px 2px;
+}
+a img {
+    display: flex;
+}
+a:visited {
+  color: black;
+  text-decoration-color: #393cf0;
+}
+a:hover {
+  color: 393cf0;
+  background-color: #aedbe8;
 }
 pre {
     white-space: pre-wrap;       /* Since CSS 2.1 */
@@ -15,17 +27,30 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-  </style>
+div.tags p {
+    background-color: #aedbe8;
+    padding: 0px 0px 0px 20px;
+    width: 200px;
+}
+div.tags pre {
+    font-size: 19px;
+    line-height: 145%;
+}
+</style>
 </head>
 <body>
+
+<div class="blog-post-content">
 
 <a href="../">Factorcat Apps</a>
 
 <h3>Speaks Album</h3>
-<a href="https://apps.apple.com/us/app/speaks-album/id6472430215">
+<div class="site_link">
+<a class="blog-button site_link" href="https://apps.apple.com/us/app/speaks-album/id6472430215">
   <img src="iphone180.png" title="Speaks Album" style="width: 120px; height: 120px;" />
   https://apps.apple.com/us/app/speaks-album/id6472430215
 </a>
+</div>
 
 
 <h3>Latest release</h3>
@@ -33,8 +58,8 @@ pre {
 
 
 <h3>Join the Discord community</h3>
-<div>
-<a href="https://discord.gg/CYteaQnDGH">
+<div class="site_link">
+<a class="site_link" href="https://discord.gg/CYteaQnDGH">
   <img src="discord.png" title="discord" />
   https://discord.gg/CYteaQnDGH
 </a>
@@ -43,6 +68,7 @@ pre {
 
 <p />
 
+<div id="app_description">
 <pre>
 Speaks Album - recognize text from your photos and speaks it right away.
 
@@ -74,9 +100,10 @@ Korean (South Korea), Japanese (Japan), Russian (Russia), Ukrainian (Ukraine)
 
 iOS 17 supports more languages like Thai (Thailand), vi-VT.
 </pre>
+</div>
 
 
-<a href="PrivacyPolicy.html">Privacy Policy</a>
+<a class="site_link" href="PrivacyPolicy.html">Privacy Policy</a>
 
 
 <h3>Changes Log</h3>
@@ -110,6 +137,8 @@ iOS 17 supports more languages like Thai (Thailand), vi-VT.
 * design for the Launch Screen
 </pre>
 </div>
+
+</div>  <!-- <div class="blog-post-content"> -->
 
 </body>
 </html>
