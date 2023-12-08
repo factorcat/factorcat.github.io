@@ -617,8 +617,8 @@ video {
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   text-align: center;
   vertical-align: middle;
   font-weight: 500;
@@ -688,6 +688,7 @@ video {
   margin-left: 0.5rem;
   margin-right: 1.25rem;
   display: inline-block;
+  width: 66.666667%;
   overflow-wrap: break-word;
   --tw-bg-opacity: 1;
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
@@ -695,6 +696,8 @@ video {
   padding-right: 0.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   text-decoration-line: underline;
   text-decoration-color: #0ea5e9;
   text-decoration-thickness: 2px;
@@ -708,6 +711,12 @@ video {
   color: rgb(28 25 23 / var(--tw-text-opacity));
 }
 
+.component-to_img {
+  /* img */
+  float: left;
+  margin-right: 0.5rem;
+}
+
 .component-to_privacy_policy {
   /* a */
   margin-left: 0px;
@@ -719,8 +728,8 @@ video {
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
   padding-left: 2.25rem;
   padding-right: 2.25rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   text-align: center;
   vertical-align: middle;
   font-weight: 500;
