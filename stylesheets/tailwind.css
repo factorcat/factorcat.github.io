@@ -688,7 +688,6 @@ video {
   margin-left: 0.5rem;
   margin-right: 1.25rem;
   display: inline-block;
-  width: 24rem;
   overflow-wrap: break-word;
   --tw-bg-opacity: 1;
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
@@ -715,6 +714,13 @@ video {
   /* img */
   float: left;
   margin-right: 0.5rem;
+}
+
+.component-to_div {
+  /* div */
+  margin-top: 0.75rem;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 .component-to_privacy_policy {
