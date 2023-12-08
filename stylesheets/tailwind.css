@@ -683,10 +683,10 @@ video {
 
 .component-to_appstore, .component-to_discord {
   /* a */
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1.25rem;
   display: inline-block;
   overflow-wrap: break-word;
   --tw-bg-opacity: 1;
@@ -745,7 +745,7 @@ video {
 .component-descriptions {
   /* div */
   margin-top: 1.25rem;
-  margin-right: 0.5rem;
+  margin-right: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
   padding-left: 0.5rem;
@@ -760,6 +760,10 @@ video {
   white-space: pre-wrap;
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .component-changes_log {
@@ -769,7 +773,7 @@ video {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: 0px;
 }
 
 .component-changes_log_h3 {
@@ -779,6 +783,21 @@ video {
   line-height: 1.75rem;
   font-weight: 600;
   padding-bottom: 0.5rem;
+}
+
+.component-changes_log_code {
+  /* code */
+  /* code */
+  display: block;
+  white-space: pre-wrap;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-right: 0.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 1.25rem;
 }
 
 .component-spacing {
