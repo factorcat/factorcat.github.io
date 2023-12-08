@@ -697,6 +697,10 @@ video {
   width: 2.5rem;
 }
 
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 .overflow-x-scroll {
   overflow-x: scroll;
 }
@@ -705,8 +709,29 @@ video {
   white-space: pre;
 }
 
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-indigo-600 {
@@ -1104,6 +1129,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:break-all {
+    word-break: break-all;
+  }
+
   .md\:text-center {
     text-align: center;
   }
