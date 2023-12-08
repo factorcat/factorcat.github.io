@@ -8,6 +8,8 @@
   <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 
+<body class="component-body">
+
 <!--
   Tailwind CSS
 
@@ -24,118 +26,40 @@
   Backgrounds - Background Color         - bg-black
   Effects     - Box Shadow               - shadow-lg
   Sizing      - Width                    - w-
-  -->
+-->
 
-<body
-class="
-px-2
-py-2
-bg-slate-100
-">
+<a class="component-to_parent" href="../">Factorcat Apps</a>
 
-<a 
-href="../"
-class="
-inline-block
-px-5  py-5
-mx-2  my-2
-underline  underline-offset-4  decoration-2  decoration-sky-500
-font-medium  text-center  align-middle
-      text-black           bg-lime-500
-hover:text-stone-900 hover:bg-lime-300 
-shadow-lg
-">Factorcat Apps</a>
-
-<div
-class="
-px-1
-pt-5
-">
-  <h3
-class="
-text-lg
-font-semibold
-">Speaks Album</h3>
+<div class="component-header_div">
+  <h1 class="component-header_h1">Speaks Album</h1>
 </div>
 
-<a
-href="https://apps.apple.com/us/app/speaks-album/id6472430215"
-class="
-inline-block
-px-2  py-2
-mx-2  my-2
-underline  underline-offset-4  decoration-2  decoration-sky-500
-                           bg-lime-500
-hover:text-stone-900 hover:bg-lime-300
-break-words
-">
+<a class="component-to_appstore"
+   href="https://apps.apple.com/us/app/speaks-album/id6472430215">
   <img src="iphone180.png" title="Speaks Album" style="width: 50px; height: 50px;" />
   https://apps.apple.com/us/app/speaks-album/id6472430215
 </a>
 
-
-<div
-class="
-px-1
-pt-5
-">
-  <h3
-class="
-text-lg
-font-semibold
-">Latest release</h3>
-  <span
-class="
-font-mono
-text-lg
-font-medium
-">1.3.0+1</span>
+<div class="component-header_div">
+  <h3 class="component-header_h3">Latest release</h3>
+  <div class="component-version">
+    <span class="component-version_span">
+      1.3.0+1
+    </span>
+  </div>
 </div>
 
-
-<div
-class="
-px-1
-pt-5
-">
-  <h3
-class="
-text-lg
-font-semibold
-">Join the Discord community</h3>
+<div class="component-header_div">
+  <h3 class="component-header_h3">Join the Discord community</h3>
 </div>
-<a
-href="https://discord.gg/CYteaQnDGH"
-class="
-inline-block
-px-2  py-2
-mx-2  my-2
-underline  underline-offset-4  decoration-2  decoration-sky-500
-                           bg-lime-500
-hover:text-stone-900 hover:bg-lime-300
-break-words
-">
+<a class="component-to_discord"
+   href="https://discord.gg/CYteaQnDGH">
   <img src="discord.png" title="discord" style="width: 80px; height: 40px;" />
   https://discord.gg/CYteaQnDGH
 </a>
 
-<div
-class="
-py-2
-">
-</div>
-
-<div
-class="
-px-2
-py-5
-mr-2
-bg-green-50
-">
-  <code class="
-block
-whitespace-pre-wrap
-">Speaks Album - recognize text from your photos and speaks it right away.
+<div class="component-descriptions">
+  <code class="component-descriptions_code">Speaks Album - recognize text from your photos and speaks it right away.
 
 Speaks Album is a tool to recognize the text from your photos and speaks it right away.
 It's recommended that you have iOS 16 version that to be recognized various languages.
@@ -166,39 +90,11 @@ Korean (South Korea), Japanese (Japan), Russian (Russia), Ukrainian (Ukraine)
 iOS 17 supports more languages like Thai (Thailand), vi-VT.</code>
 </div>
 
+<a class="component-to_privacy_policy" href="PrivacyPolicy.html">Privacy Policy</a>
 
-<a 
-href="PrivacyPolicy.html"
-class="
-inline-block
-px-9  py-3
-mx-0  my-2
-underline  underline-offset-4  decoration-2  decoration-sky-500
-font-medium  text-center  align-middle
-      text-black           bg-lime-500
-hover:text-stone-900 hover:bg-lime-300 
-shadow-lg
-">Privacy Policy</a>
-
-
-
-<div
-class="
-px-2
-py-2
-mt-5
-mr-2
-bg-green-50
-">
-  <h3
-class="
-font-semibold
-pb-3
-">Changes Log</h3>
-  <code class="
-block
-whitespace-pre-wrap
-">### Speaks Album  1.3.0+1
+<div class="component-changes_log">
+  <h3 class="component-changes_log_h3">Changes Log</h3>
+  <code class="component-descriptions_code">### Speaks Album  1.3.0+1
   * Adaptive layout
     - support Split View for iPad.
     - Image View - fixed buttons for device orientation.
