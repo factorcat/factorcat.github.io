@@ -718,9 +718,11 @@ video {
 
 .component-to_div {
   /* div */
-  margin-top: 0.75rem;
-  display: inline-block;
-  vertical-align: baseline;
+  display: block;
+  text-decoration-line: underline;
+  text-decoration-color: #0ea5e9;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 .component-to_privacy_policy {
