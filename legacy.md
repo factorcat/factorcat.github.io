@@ -1,0 +1,3 @@
+** legacy 
+about/
+findthewords/

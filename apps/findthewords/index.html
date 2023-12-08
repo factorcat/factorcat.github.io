@@ -1,65 +1,175 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Find the words</title>
+  <link href="../../stylesheets/tailwind.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png" />
 </head>
-<body>
 
-<a href="../">Factorcat Apps</a>
+<!--
+  Tailwind CSS
 
-<h3>Find the words</h3>
-<a href="https://apps.apple.com/us/app/find-the-words/id410634595">
-  <img src="icon60@2x.png" style="width: 120px; height: 120px;" />
+  Layout      - Display                  - inline-block
+  Spacing     - Padding                  - px-  py-
+                Margin                   - mx-  py-
+  Typography  - Font Weight              - font-normal
+              - Text Align               - text-center
+              - Vertical Align           - align-middle
+              - Text Color               - text-black
+              - Text Decoration          - underline
+              - Text Underline Offset    - underline-offset-1
+              - Text Decoration Thicknes - decoration-8
+  Backgrounds - Background Color         - bg-black
+  Effects     - Box Shadow               - shadow-lg
+  Sizing      - Width                    - w-
+  -->
+
+<body
+class="
+px-2
+py-2
+bg-slate-100
+">
+
+<a 
+href="../"
+class="
+inline-block
+px-5  py-5
+mx-2  my-2
+underline  underline-offset-4  decoration-2  decoration-sky-500
+font-medium  text-center  align-middle
+      text-black           bg-lime-500
+hover:text-stone-900 hover:bg-lime-300 
+shadow-lg
+">Factorcat Apps</a>
+
+<div
+class="
+px-1
+pt-5
+">
+  <h3
+class="
+text-lg
+font-semibold
+">Find the words</h3>
+</div>
+
+<a
+href="https://apps.apple.com/us/app/find-the-words/id410634595"
+class="
+inline-block
+px-2  py-2
+mx-2  my-2
+underline  underline-offset-4  decoration-2  decoration-sky-500
+                           bg-lime-500
+hover:text-stone-900 hover:bg-lime-300
+">
+  <img src="icon60@2x.png" title="Find the words" style="width: 50px; height: 50px;" />
   https://apps.apple.com/us/app/find-the-words/id410634595
 </a>
 
 
-<h3>Latest release</h3>
-9.3 b1
-
-
-<h3>Join the Discord community</h3>
-<div>
-<a href="https://discord.gg/BTxfu5QrRV">
-  <img src="discord.png" alt="discord" />
-  https://discord.gg/BTxfu5QrRV
-</a>
+<div
+class="
+px-1
+pt-5
+">
+  <h3
+class="
+text-lg
+font-semibold
+">Latest release</h3>
+  <span
+class="
+font-mono
+text-lg
+font-medium
+">9.3 b1</span>
 </div>
 
 
-<pre>
-Find the words
+<div
+class="
+px-1
+pt-5
+">
+  <h3
+class="
+text-lg
+font-semibold
+">Join the Discord community</h3>
+</div>
+<a
+href="https://discord.gg/BTxfu5QrRV"
+class="
+inline-block
+px-2  py-2
+mx-2  my-2
+underline  underline-offset-4  decoration-2  decoration-sky-500
+                           bg-lime-500
+hover:text-stone-900 hover:bg-lime-300
+">
+  <img src="discord.png" title="discord" style="width: 80px; height: 40px;" />
+  https://discord.gg/BTxfu5QrRV
+</a>
+
+<div
+class="
+py-2
+">
+</div>
+
+<div
+class="
+px-2
+py-5
+mr-2
+bg-green-50
+">
+  <code class="
+block
+whitespace-pre
+overflow-x-scroll
+">Find the words
 
 This is the implementaion of the word search that most popular word puzzle on papers.
-
 The objective of this puzzle is to find and mark all the words on the grid.
-
 The words may be placed horizontally, vertically, or diagonally.
-
 When the word has found, it will play the speech voice automatically.
-
 You can draw multi-touch strokes, also play it with landscape mode.
-
 You can get more pen colors by achievements.
 
 There's three buttons on the top.
-
 Top left button: to manage the words that play the game. add your own words and start the game.
-
 Top second button: to share the play screenshot on the social media.
-
 Top right button: settings for languages to play, speech voices, achievements for pen colors.
 
 Also you can upgrade the app to hide the advertisements.
-</pre>
 
-<code>
-Find the words supports the languages: English, Simplified Chinese(简体中文), Traditional Chinese(繁體中文), Japanese(日本語), Spanish(Español), French(Français), German(Deutsch), Russian(Pусский), Portuguese(Português), Italian(Italiano), Korean(한국어), Turkish(Türkçe), Dutch(Nederlands), Arabic, Thai(ภาษาไทย), Swedish(Svenska), Danish(Dansk), Norwegian Bokmål(Norsk bokmål), Polish(Polski), Finnish(Suomi), Greek(Ελληνικά), Romanian(Română), Hungarian(Magyar), Czech(Čeština), Slovak(Slovenčina), Hindi(हिंदी)
-</code>
+Find the words supports the languages: English, Simplified Chinese(简体中文),
+ Traditional Chinese(繁體中文), Japanese(日本語), Spanish(Español), French(Français),
+ German(Deutsch), Russian(Pусский), Portuguese(Português), Italian(Italiano), Korean(한국어),
+ Turkish(Türkçe), Dutch(Nederlands), Arabic, Thai(ภาษาไทย), Swedish(Svenska), Danish(Dansk),
+ Norwegian Bokmål(Norsk bokmål), Polish(Polski), Finnish(Suomi), Greek(Ελληνικά), Romanian(Română),
+ Hungarian(Magyar), Czech(Čeština), Slovak(Slovenčina), Hindi(हिंदी)</code>
+</div>
 
-<p />
-<a href="PrivacyPolicy.html">Privacy Policy</a>
+<a 
+href="PrivacyPolicy.html"
+class="
+inline-block
+px-9  py-3
+mx-0  my-2
+underline  underline-offset-4  decoration-2  decoration-sky-500
+font-medium  text-center  align-middle
+      text-black           bg-lime-500
+hover:text-stone-900 hover:bg-lime-300 
+shadow-lg
+">Privacy Policy</a>
 
 </body>
 </html>
