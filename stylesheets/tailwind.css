@@ -763,6 +763,8 @@ video {
   padding-right: 0.5rem;
   padding-top: 0px;
   padding-bottom: 0px;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .component-changes_log_h3 {
@@ -797,6 +799,8 @@ video {
   padding-right: 0.5rem;
   padding-top: 0px;
   padding-bottom: 0px;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .component-spacing {
@@ -821,6 +825,54 @@ video {
 }
 
 .component-to_app:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(28 25 23 / var(--tw-text-opacity));
+}
+
+/***** Privacy Policy *****/
+
+.component-privacy-policy-header {
+  /* h1 */
+  /* h1 */
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  padding-left: 0.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.component-privacy-policy-descriptions {
+  /* div */
+  /* div */
+  margin-top: 1.25rem;
+  margin-right: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-bottom: 0.75rem;
+  padding-left: 0.5rem;
+  margin-top: 0px;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.component-privacy-policy-descriptions p strong {
+  /* div p strong */
+  display: inline-block;
+  padding-top: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.component-a {
+  /* a */
+  text-decoration-line: underline;
+  text-decoration-color: #0ea5e9;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.component-a:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(190 242 100 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
