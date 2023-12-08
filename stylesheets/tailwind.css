@@ -748,10 +748,9 @@ video {
   margin-right: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 .component-descriptions_code {
@@ -766,23 +765,25 @@ video {
   padding-bottom: 0px;
 }
 
-.component-changes_log {
-  /* div */
-  margin-top: 0.25rem;
-  margin-right: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0px;
-}
-
 .component-changes_log_h3 {
   /* h3 */
   /* h3 */
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
-  padding-bottom: 0.5rem;
+  padding-top: 0.75rem;
+}
+
+.component-changes_log {
+  /* div */
+  /* div */
+  margin-right: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .component-changes_log_code {
@@ -792,12 +793,10 @@ video {
   white-space: pre-wrap;
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-left: 0.25rem;
   padding-right: 0.5rem;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 0.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 1.25rem;
 }
 
 .component-spacing {
