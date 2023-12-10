@@ -3,9 +3,9 @@
   "name": "Speaks Album",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.webp",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/webp"
     }
   ],
   "start_url": ".",
