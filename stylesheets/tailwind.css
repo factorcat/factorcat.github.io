@@ -727,10 +727,9 @@ video {
 
 .component-to_privacy_policy {
   /* a */
-  margin-left: 0px;
-  margin-right: 0px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-right: 1.75rem;
   display: inline-block;
   --tw-bg-opacity: 1;
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
@@ -761,19 +760,21 @@ video {
 
 .component-to_license {
   /* a */
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   display: inline-block;
   --tw-bg-opacity: 1;
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
   text-align: center;
   vertical-align: middle;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
