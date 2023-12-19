@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -759,6 +759,40 @@ video {
   color: rgb(28 25 23 / var(--tw-text-opacity));
 }
 
+.component-to_license {
+  /* a */
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+  text-decoration-color: #0ea5e9;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.component-to_license:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(28 25 23 / var(--tw-text-opacity));
+}
+
 .component-descriptions {
   /* div */
   margin-top: 1.25rem;
@@ -894,4 +928,64 @@ video {
   background-color: rgb(190 242 100 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(28 25 23 / var(--tw-text-opacity));
+}
+
+/***** LICENSE *****/
+
+.component-license-header {
+  /* h1 */
+  /* h1 */
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.component-license-package {
+  /* div */
+  /* div */
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.component-license-package-name {
+  /* h3 */
+  /* h3 */
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.component-license-github {
+  /* a */
+  /* a */
+  text-decoration-line: underline;
+  text-decoration-color: #0ea5e9;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.component-license-github:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(28 25 23 / var(--tw-text-opacity));
+}
+
+.component-license-descriptions {
+  /* code */
+  /* code */
+  display: block;
+  white-space: pre-wrap;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }

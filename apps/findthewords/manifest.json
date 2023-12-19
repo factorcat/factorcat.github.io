@@ -1,0 +1,15 @@
+{
+  "short_name": "Find the words",
+  "name": "Find the words",
+  "icons": [
+    {
+      "src": "favicon.webp",
+      "sizes": "120x120",
+      "type": "image/webp"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f1f5f9",
+  "background_color": "#e2e8f0"
+}
