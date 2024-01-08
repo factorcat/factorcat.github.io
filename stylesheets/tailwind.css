@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -974,6 +974,22 @@ video {
 }
 
 .component-license-github:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(28 25 23 / var(--tw-text-opacity));
+}
+
+.component-license-link {
+  /* a */
+  /* a */
+  text-decoration-line: underline;
+  text-decoration-color: #0ea5e9;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.component-license-link:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(190 242 100 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
